@@ -1,15 +1,14 @@
 {
-  "name": "asd",
+  "name": "vect",
   "version": "1.0.0",
   "description": "",
-  "main": "nodeapi.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node nodeapi.js "
+    "start": "node /var/www/html"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "http": "0.0.1-security"
+    "express": "^4.17.1"
   }
 }

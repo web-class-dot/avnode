@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Regular';
+    src: url('DoHyeon-Regular.ttf');
+}
+.overflow{
+    width: 200px;
+  
+    border: 2px solid black;
+    text-overflow: ellipsis;
+    word-wrap: keep-all;
+    writing-mode: vertical-rl;
+    /* white-space: nowrap; */
+    font-family: 'Regular';
+}
+.animation{
+    width:200px;
+    height:200px;
+    background-color: blue;
+    margin-top: 50px;
+    margin-left: 50px;
+    transition: all 1s;
+      
+}
+.animation{
+    transform:rotate(50deg);
+
+  
+}
